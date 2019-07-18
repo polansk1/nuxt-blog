@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="box" class="epaaa">hola desde box</div>
+</body>
+</html>
+<script>
+	class Square {
+		constructor(){
+			this.box = document.querySelector('#box')
+		}
+
+		get classBox(){
+			return this.class()
+		}
+
+		class (){
+			return this.box.classList
+		}
+	}
+
+	const el = new Square();
+
+	console.log(el.box.classList); //acceso desde la propiedad
+	console.log(el.classBox); //acceso desde un getter
+</script>
+

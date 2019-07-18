@@ -1,0 +1,22 @@
+{
+  "name": "blog-nuxt",
+  "version": "1.0.0",
+  "description": "My Nuxt Blog",
+  "author": "Pol",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.5.4",
+    "axios": "^0.19.0",
+    "js-cookie": "^2.2.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
