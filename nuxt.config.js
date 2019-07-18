@@ -40,7 +40,7 @@ export default {
   ],
 
   axios: {
-    baseURL: process.env.BASE_URL || 'https://blog-nuxt-1720c.firebaseio.com',
+    baseURL: process.env.BASE_URL || //url to you're firebase ,
     credentials: false
   },
   /*
@@ -55,8 +55,8 @@ export default {
   },
 
   env:{
-    baseUrl: process.env.BASE_URL || 'https://blog-nuxt-1720c.firebaseio.com',
-    fbAPIKey: 'AIzaSyD37APno5UQNtODHSYJ53Z_9O5y2uzXXwo'
+    baseUrl: process.env.BASE_URL || //url to you're firebase ,
+    fbAPIKey: //api key of you're firebase
   },
 
   transition: {
